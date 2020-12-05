@@ -32,9 +32,6 @@ class CartItem extends React.Component{
                         <img alt ="delete"   className = "action-icons" src="https://www.flaticon.com/svg/static/icons/svg/3096/3096673.svg"  />
                     </div>
                 </div>
-                <div className="right-block">
-             {this.props.location.state}
-         </div>
             </div>
             
         );
