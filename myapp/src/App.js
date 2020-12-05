@@ -1,10 +1,11 @@
 import React from 'react';
-import CartItem from './CartItem';
+import Router from './Router';
+import './App.css'
 
 function App() {
   return (
     <div className="App">
-     <CartItem />
+     <Router />
     </div>
   );
 }
