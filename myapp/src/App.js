@@ -1,16 +1,13 @@
 import React from 'react';
-
-import Cart from './Cart';
-import NavBar from './NavBar';
-
+import Router from './Router';
+import './App.css'
+ 
 function App() {
   return (
     <div className="App">
-     <NavBar/>
-     <Cart/>
-    
+     <Router />
     </div>
   );
 }
-
+ 
 export default App;
